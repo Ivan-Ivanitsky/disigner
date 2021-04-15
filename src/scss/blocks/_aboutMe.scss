@@ -1,0 +1,18 @@
+.aboutMe{
+    margin-top: 101px;
+    height: 506px;
+    background: #F6F6F6 center center/cover no-repeat;
+    padding: 120px 0 107px 0;
+    &__wrapper{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    // &__header{}
+    &__subheader{
+        margin-top: 17px;
+        max-width: 485px;
+    }
+}

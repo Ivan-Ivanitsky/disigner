@@ -1,0 +1,45 @@
+.home{
+    min-height: 510px;
+    margin-top: 40px;
+}
+.desiner{
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__photo{
+        padding-top: 52px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+
+.lang{
+    padding-top: 50px;
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: space-between;
+    
+    li{
+        list-style-type: none;
+        padding-right: 3px;
+        cursor: pointer;
+    }
+    &__slash{
+        &_active{
+            font-weight: 700;
+            color: #070707;
+        }
+    }
+    &__eng{
+        &_active{
+            font-weight: 700;
+            color: #070707;
+        }
+    }
+}
+

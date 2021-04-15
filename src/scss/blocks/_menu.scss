@@ -1,0 +1,36 @@
+.menu{
+    padding: 32px 0 32px 0;
+    &__links{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        .link{
+            font-size: 18px;
+            color: #828282;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            &:hover{
+                color: #070707;
+            }
+            a{
+                color: #828282;
+                text-decoration: none;
+            }
+            &__active{
+                color: #070707;
+                text-decoration: none;
+            }
+        }
+
+    }
+ .menu__lang{
+     display: none;
+ }
+}
+
+.line{
+    margin-top: 31px;
+    border: solid 1px #828282 ;
+    width: 100%;
+}

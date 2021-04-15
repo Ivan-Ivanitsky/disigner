@@ -1,0 +1,14 @@
+.link-store{
+  margin-top: 45px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 20px;
+  transition: 1s;
+  &:hover{
+      transform: scale(1.2);
+  }
+a{
+    font-size: 18px;
+    color: #070707;
+}
+}

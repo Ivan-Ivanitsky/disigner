@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: local('Gilroy-Regular'), local('Gilroy-Regular'),
+        url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'), local('Gilroy-Bold'),
+        url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+* {
+    font-family: 'Gilroy-Regular', 'Gilroy-Bold';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.media-phone{
+    display: none
+}
+.red{
+    color:red;
+}
+
+@import './blocks/header';
+@import './blocks/subheader';
+@import './blocks/menu';
+@import './blocks/home';
+@import './blocks/aboutMe';
+@import './blocks/skills';
+@import './blocks/portfolio';
+@import './blocks/linkStore';
+@import './blocks/footer';
+@import './blocks//slide';
+@import './blocks/media';
